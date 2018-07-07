@@ -101,7 +101,9 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
+function plusSlides(n,esAuto) {
+  if(TIMERSLIDE)
+      clearTimeout(TIMERSLIDE)
   showSlides(slideIndex += n);
 }
 
@@ -121,7 +123,7 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  setTimeout(function(){plusSlides(1)},5000)
+  TIMERSLIDE=setTimeout(function(){plusSlides(1,true)},5000)
   slides[slideIndex-1].style.display = "block";
   if(dots[slideIndex-1])
   dots[slideIndex-1].className += " active";
@@ -132,7 +134,7 @@ function showSlides(n) {
       <a href="index.php">Home</a>
       <a href="#">Be our sponsor</a>
       <a href="who.php">Who is coming</a>
-      <a href="Schedule.php">Schedule</a>
+      <a href="schedule.php">Schedule</a>
       <a href="#">Gallery</a>
       <a href="#">Social</a>
       <a href="#">Awards</a>

@@ -299,6 +299,4 @@
           </ul>
       </section>
       <? } ?>
-      </div>
-    </div>
     <? include('includes/footer.php')?>
