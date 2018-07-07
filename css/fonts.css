@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Aspira';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'AspiraBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraLight';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraBlack';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-Black.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraMedium';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-Medium.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraMediumIt';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-MediumIt.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraBoldIt';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-BoldIt.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraHeavy';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-Heavy.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraHeavyIt';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-HeavyIt.woff) format('woff');
+}
+@font-face {
+  font-family: 'AspiraIt';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AspiraXWide-It.woff) format('woff');
+}
+@font-face {
+  font-family: 'GothamBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/GothamRounded-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'GothamBook';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/GothamRounded-Book.woff) format('woff');
+}
+@font-face {
+  font-family: 'GothamLight';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/GothamRounded-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'AwesomeSolid';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/FontAwesome5FreeSolid.woff) format('woff');
+}
+@font-face {
+  font-family: 'AwesomeBrands';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/FontAwesome5BrandsRegular.woff) format('woff');
+}

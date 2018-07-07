@@ -1,0 +1,217 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 7px;
+}
+a{
+  text-decoration: none;
+}
+ul,li,p,h1,h2{
+  margin:0;
+  padding:0
+}
+.topH{
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+  display: table;
+  width: 100%;
+}
+.topH .logo{
+  display: table-cell;
+  text-align: left;
+  padding-left:15px;
+  vertical-align: middle;
+}
+.topH .logo img{
+  width: 250px;
+}
+.topH .botones{
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
+.botones .logotemp{
+  height: 66px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.topH .botones a{
+  display: inline-block;
+  background: url(../img/fdo_am_01.jpg) right repeat-y #d0a951;
+  color:#FFF;
+  font-size:2.3em;
+  font-family: AspiraBlack,Verdana;
+  padding: 8px 20px;
+  border:0px;
+  margin:0 5px;
+  border-radius: 20px;
+}
+.topH .botones a img{
+  vertical-align: middle;
+}
+.sepCont{
+  height: 10em;
+  background: #2d2d2d;
+}
+.sepCont .max{
+  max-width: 1140px;
+  margin: auto;
+  display: table;
+  width: 100%;
+}
+nav{
+  text-align: center;
+  padding: 3.5em 0 3em 0;
+  background: #2d2d2d;
+  position: relative;
+  z-index: 2;
+}
+nav a{
+  font-family: Aspira,Verdana;
+  font-size: 18px;
+  color:#FFF;
+  display: inline-block;
+  padding:0px 12px;
+  text-decoration: none;
+}
+.banners{
+  text-align: center;
+  height: 75em;
+  background-image:url(../img/exam01.jpg) ;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.busc{
+  max-width: 280px;
+  min-width: 50px;
+  width: 80%;
+  height: 30px;
+  border: 2px solid #888888;
+  border-radius: 22px;
+  background-image: url(../img/lupa.jpg);
+  background-repeat: no-repeat;
+  background-position: 16px -3px;
+  padding-left: 50px;
+  font-family: Aspira,Verdana;
+  font-size: 16px;
+}
+.busc:focus{
+  outline: none;
+}
+
+.dvBusc,.dvRest{
+  display: table-cell;
+  vertical-align: top;
+}
+.dvBusc{
+  width: 33%;
+}
+.dvBusc{
+  padding-top: 2em;
+  padding-left: 15px;
+}
+.dvRest{
+  font-family: AspiraHeavy,Verdana;
+  color:#d5af57;
+  font-size:4.5em;
+  text-align: right;
+  vertical-align: middle;
+  padding-top: 13px;
+  padding-right: 10px;
+}
+.menu2{
+  display: table;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  max-width: 840px;
+  margin-top: -65px;
+  width: 100%;
+  box-shadow: 2px 9px 18px 4px rgba(0, 0, 0, 0.47);
+  background: transparent;
+  border-radius: 20px;
+}
+.menu2 div{
+  display: table-cell;
+  width: 33%;
+  text-align: center;
+  background:#FFF;
+  padding: 18px 0 20px 0;
+  border: 1px solid #ececec;
+  cursor:pointer
+}
+.menu2 div svg{
+  height: 55px;
+}
+.menu2 .cls-1{
+  fill:#a7212f
+}
+.menu2 div span{
+  display: block;
+  font-family: AspiraBold,Verdana;
+  font-size: 2.7em;
+  color:#a7212f
+}
+.menu2 .act{
+  background: #dfb964;
+  border: 0px
+}
+.menu2 .act span{
+  color:#2d2d2d
+}
+.menu2 .act .cls-1{
+  fill:#2d2d2d
+}
+.menu2 .left{
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 18px;
+}
+.menu2 .right{
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.content{
+  min-height: 500px;
+  margin-top: -91px;
+}
+footer{
+  background-image:url(../img/new_footer.jpg);
+  background-size:cover;
+  min-height: 300px;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+p{
+  margin: 0;
+  padding:0;
+}
+.brands{
+  font-family: AwesomeBrands,Verdana !important;
+  font-size: 30px !important;
+}
+footer .logo{
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+footer .celda01{
+  width: 30%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+footer .celda01 img{
+  width: 100%;
+  max-width: 250px;
+}
+footer .celda02{
+  width: 69%;
+  display: table-cell;
+}

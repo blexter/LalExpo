@@ -1,0 +1,306 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+.topH{
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+}
+.topH a{
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  right: 90px;
+}
+.sepCont{
+  height: 80px;
+  background: #2d2d2d;
+  display: table;
+  width: 100%;
+}
+nav{
+  text-align: center;
+  padding: 35px 0 30px 0;
+  background: #FFF;
+  margin-top: -190px;
+  position: relative;
+  z-index: 2;
+}
+nav a{
+  font-family: Aspira,Verdana;
+  font-size: 18px;
+  color:#a7212f;
+  display: inline-block;
+  padding:0px 12px;
+  text-decoration: none;
+}
+.banners{
+  text-align: center;
+  height: 758px;
+  background-image:url(../img/exam01.jpg) ;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.busc{
+  max-width: 340px;
+  min-width: 50px;
+  width: 80%;
+  height: 42px;
+  border: 2px solid #888888;
+  border-radius: 22px;
+  background-image: url(../img/lupa.jpg);
+  background-repeat: no-repeat;
+  background-position: 16px 3px;
+  padding-left: 50px;
+  font-family: Aspira,Verdana;
+  font-size: 16px;
+}
+.busc:focus{
+  outline: none;
+}
+
+.txtTime{
+  font-family: GothamLight,Verdana;
+  font-size:18px;
+  color:#FFF;
+  display: inline-block;
+}
+.trTxtTime td{
+  font-family: GothamLight,Verdana;
+  font-size:18px;
+  color:#FFF;
+  padding: 10px 20px 0 20px;
+}
+.trTxtTimeD{
+  font-family: GothamBook,Verdana;
+  font-size:35px;
+  color:#FFF;
+  text-align: center;
+  padding: 0;
+  line-height: 35px;
+}
+.dvBusc,.dvReg,.dvRest{
+  display: table-cell;
+  vertical-align: top;
+}
+.dvBusc{
+  width: 33%;
+}
+.dvRest{
+  width: 33%;
+  text-align: center;
+}
+.dvRest table{
+  display: inline;
+}
+.dvReg{
+  padding-top: 22px;
+  text-align: right;
+  padding-right: 5%;
+}
+.dvRest table{
+  margin:auto
+}
+.dvBusc{
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.dvReg input[type=button]{
+  background: #FFF;
+  font-family: GothamBook,Verdana;
+  font-size:18px;
+  color:#802248;
+  text-align: center;
+  border:0px;
+  border-radius: 18px;
+  padding:8px 25px;
+  display: inline-block;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.menu2{
+  display: table;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  max-width: 1150px;
+  margin-top: 28px;
+  width: 100%;
+  box-shadow: 2px 9px 18px 4px rgba(0, 0, 0, 0.47);
+  background: transparent;
+  border-radius: 20px;
+}
+.menu2 div{
+  display: table-cell;
+  width: 33%;
+  text-align: center;
+  background:#FFF;
+  padding: 18px 0 37px 0;
+  border: 1px solid #ececec;
+  cursor:pointer
+}
+.menu2 div svg{
+  height: 71px;
+}
+.menu2 .cls-1{
+  fill:#a7212f
+}
+.menu2 div span{
+  display: block;
+  font-family: AspiraBold,Verdana;
+  font-size: 2.7em;
+  color:#a7212f
+}
+.menu2 .act{
+  background: url(../img/fdo_sub.jpg) top repeat-x #6e0b26;
+  border: 0px
+}
+.menu2 .act span{
+  color:#FFF
+}
+.menu2 .act .cls-1{
+  fill:#FFF
+}
+.menu2 .left{
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 18px;
+}
+.menu2 .right{
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.content{
+  min-height: 500px;
+  margin-top: -91px;
+}
+footer{
+  background:url(../img/fdo_foot.jpg) top repeat-x #600e27;
+  min-height: 500px;
+  text-align: center;
+  padding-top: 260px;
+}
+footer .tits{
+  display: inline-block;
+  font-family: Aspira,Verdana;
+  font-size: 32px;
+  color:#FFF;
+  vertical-align: top;
+  text-align: left;
+  width: 270px;
+}
+footer .left{
+  width: 375px;
+}
+footer .right{
+  width: 435px;
+}
+footer .tits div{
+  display: block;
+  padding-top: 50px;
+  color:#FFF;
+  font-family: AspiraLight,Verdana;
+  font-size: 18px;
+  max-width: 288px;
+}
+footer .tits div a{
+  text-decoration: none;
+  color:#FFF;
+  display: block;
+  margin-bottom: 20px;
+}
+footer .tits div span{
+  font-family: AwesomeSolid,Verdana;
+  font-size: 32px;
+  color:#FFF;
+  padding-right:25px
+}
+footer .tits div div{
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+p{
+  margin: 0;
+  padding:0;
+}
+footer .tits div div p{
+  display: inline-block;
+  font-size:17px
+}
+footer .right div{
+  max-width:none
+}
+.brands{
+  font-family: AwesomeBrands,Verdana !important;
+  font-size: 38px !important;
+}
+footer .logo{
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer .logo p{
+  font-family: AspiraLight,Verdana;
+  font-size:15px;
+  color:#FFF;
+  display: block;
+  padding:15px 0 20px 0
+}
+.banners .txt{
+  background: url(../img/fdo_bannertext.png) center top no-repeat transparent;
+  width: 617px;
+  height: 290px;
+  position: absolute;
+  top:120px;
+  left: 10px;
+  z-index: 2;
+  color:#FFF;
+  text-align: center;
+  padding-top: 20px;
+}
+.banners .txt .t1{
+  font-size: 107px;
+  line-height: 107px;
+  font-family: AspiraBoldIt,Verdana;
+}
+.banners .txt .t2{
+  font-size: 73px;
+  line-height: 73px;
+  font-family: AspiraIt,Verdana;
+}
+.banners .txt .t3{
+  font-size: 70px;
+  line-height: 70px;
+  font-family: AspiraHeavyIt,Verdana;
+}
+.redes{
+  position: absolute;
+  right: 0px;
+  background: #FFF;
+  padding: 8px 8px 8px 12px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: AwesomeBrands,Verdana;
+  font-size: 27px;
+  color:#c10234;
+  width: 30px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.redes.youtube{
+  top: 95px;
+}
+.redes.facebook{
+  top: 155px;
+}
+footer{
+  margin-top: -30px;
+}
