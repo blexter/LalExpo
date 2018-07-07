@@ -10,6 +10,9 @@ ul,li,p,h1,h2{
   margin:0;
   padding:0
 }
+#todo{
+  overflow-x: hidden;
+}
 .topH{
   text-align: center;
   padding: 10px 0;
@@ -76,6 +79,10 @@ nav a{
   display: inline-block;
   padding:0px 12px;
   text-decoration: none;
+}
+.nav2{
+    margin-top: -137px;
+    height: 91px;
 }
 .banners{
   text-align: center;
