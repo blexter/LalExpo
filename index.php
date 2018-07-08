@@ -22,14 +22,14 @@
           <div class="max01">
             <div class="pre">
               <div class="izq01 prim">1,300 Industry Profesionals</div>
-              <div class="izq01">An unexploited new Market</div>
-              <div class="izq01">Companies ready for business</div>
-              <div class="izq01">Hundreds of Deals closed</div>
-              <div class="izq01">An opportunity to expand</div>
-              <div class="izq01">Big workshops and seminars</div>
-              <div class="izq01">Best networking and Parties</div>
+              <div class="izq01" style="animation-delay: .1s">An unexploited new Market</div>
+              <div class="izq01" style="animation-delay: .2s">Companies ready for business</div>
+              <div class="izq01" style="animation-delay: .3s">Hundreds of Deals closed</div>
+              <div class="izq01" style="animation-delay: .4s">An opportunity to expand</div>
+              <div class="izq01" style="animation-delay: .5s">Big workshops and seminars</div>
+              <div class="izq01" style="animation-delay: .6s">Best networking and Parties</div>
             </div>
-            <a href="#">Register now</a>
+            <a href="#" style="animation-delay: 1.4s">Register now</a>
           </div>
         </div>
       </section>
@@ -46,13 +46,13 @@
       <section class="section03">
         <div class="sp">
           <header><h1>Sponsorship opportunity</h1></header>
-          <p><img src="img/fleblanc.png" /> Promote y our brand</p>
-          <p><img src="img/fleblanc.png" /> Show of your company</p>
-          <p><img src="img/fleblanc.png" /> Make new contacts</p>
-          <p><img src="img/fleblanc.png" /> Meet your latam partners</p>
-          <p><img src="img/fleblanc.png" /> Strengthen relationships</p>
-          <p><img src="img/fleblanc.png" /> Create a new market</p>
-          <a href="#">Be our sponsor</a>
+          <p style="animation-delay: .1s"><img src="img/fleblanc.png" /> Promote y our brand</p>
+          <p style="animation-delay: .2s"><img src="img/fleblanc.png" /> Show of your company</p>
+          <p style="animation-delay: .3s"><img src="img/fleblanc.png" /> Make new contacts</p>
+          <p style="animation-delay: .4s"><img src="img/fleblanc.png" /> Meet your latam partners</p>
+          <p style="animation-delay: .5s"><img src="img/fleblanc.png" /> Strengthen relationships</p>
+          <p style="animation-delay: .6s"><img src="img/fleblanc.png" /> Create a new market</p>
+          <a href="#" style="animation-delay: 1.4s">Be our sponsor</a>
         </div>
         <div class="sp" style="width: auto;padding-left: 20%;">
           <div class="spons">

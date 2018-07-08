@@ -22,11 +22,6 @@
     display: block;
     padding-top:30px
   }
-  .cell{
-    display: table-cell;
-    width: 49%;
-    vertical-align:top
-  }
   .section01{
     display: table;
     background-image: url(../img/fdo_sec_home01.jpg);

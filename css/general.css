@@ -6,7 +6,7 @@ body{
 a{
   text-decoration: none;
 }
-ul,li,p,h1,h2{
+ul,li,p,h1,h2,form{
   margin:0;
   padding:0
 }
@@ -77,8 +77,14 @@ nav a{
   font-size: 18px;
   color:#FFF;
   display: inline-block;
-  padding:0px 12px;
+  margin:0px 12px;
   text-decoration: none;
+  -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
+  transition: .5s;
+}
+nav a.act,nav a:hover{
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FFF;
 }
 .nav2{
     margin-top: -137px;
@@ -192,7 +198,7 @@ footer{
   background-size:cover;
   min-height: 300px;
   text-align: center;
-  display: table;
+  display: table !important;
   width: 100%;
 }
 p{
@@ -256,6 +262,7 @@ footer .celda02{
   max-width: 421px;
   width: 100%;
   font-family: AspiraMedium,Verdana;
+  transition: .5s;
   color:#FFF;
 }
 .section10 .cell textarea{
@@ -266,6 +273,9 @@ footer .celda02{
 
 .section10 .cell input[type=text]{
   outline: none;
+}
+.section10 .cell input[type=text]:focus{
+  border-bottom: 2px solid #ddb762;
 }
 .section10 .cell .tits{
   display: inline-block;
@@ -315,20 +325,28 @@ footer .celda02{
 .section01 a, .botLink {
   display: inline-block;
   background: url(../img/fdo_am_02.jpg) right repeat-y #876b29;
-  color: #FFF;
+  color: #FFF !important;
   font-family: AwesomeBrands, Verdana;
   font-size: 2.7em;
   padding: 12px 25px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   border-radius: 30px;
 }
+
 /* The Modal (background) */
+.preLogin{
+  display: none;
+  width: 100%;
+  position: absolute;
+  top:0;
+  padding-top: 100px;
+  z-index: 101;
+}
 .login {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    z-index: 100; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -340,24 +358,103 @@ footer .celda02{
 
 /* Modal Content */
 .login-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  background-color: #2d2d2d;
+  margin: auto;
+  border: 0px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #ddb762;
+  position: relative;
 }
-
+.login-content input[type=text],.login-content input[type=password],.login-content input[type=email]{
+  border: 2px solid #e3bd69;
+  background: #FFF;
+  border-radius: 17px;
+  font-size: 3em;
+  margin-bottom: 18px;
+  margin-top: 6px;
+  width: 90%;
+  outline: none;
+  padding: 3px 5%;
+}
+.login-content .hiddSub{
+  display: none;
+}
+.log_tit{
+  font-size: 5em;
+  font-family: AspiraBlack, Verdana;
+  text-align: center;
+}
+.log_descrip{
+  font-size: 1.5em;
+  font-family: AspiraLight, Verdana;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.log_textImp{
+  text-align: left;
+  font-family: AspiraMediumIt,Verdana;
+  font-size: 1.5em;
+  margin-left: 2em;
+}
+.login_botones{
+  text-align: center;
+  padding: 50px;
+}
+.login_botones .botLink{
+  margin-bottom: 25px;
+  padding: 12px 50px;
+  cursor:pointer
+}
+.tb{
+  display: table;
+}
+.tbCell{
+  display: table-cell;
+}
+.padd_{
+  padding-right: 20px;
+}
 /* The Close Button */
 .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #FFF;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  right: 18px;
+  top: 15px;
+  line-height: 16px;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contentBorder {
+  border: 1px solid #7b6e52;
+  margin: 0 30px 40px;
+  border-top: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 25px;
+}
+.log_encabezado{
+  background: #a7212f;
+  text-align: center;
+  padding: 35px 0;
+}
+.topH .botones a,.botLink{
+  cursor:pointer
+}
+.topH .botones a:hover, .botLink:hover{
+  color:#404040
+}
+.cell{
+  display: table-cell;
+  width: 49%;
+  vertical-align:top
 }
